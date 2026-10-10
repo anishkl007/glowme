@@ -1,0 +1,14 @@
+{
+  "name": "make-a-website-using-the-prompt",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "typecheck": "zitejs check"
+  },
+  "dependencies": {
+    "zitejs": "0.9.135"
+  }
+}
